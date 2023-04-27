@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: skyblue;
+        margin: 0;
+        padding: 0;
+        font-family: Ariel;
+    }
+
+
+.menu_bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo{
+    color: beige;
+    font-size: 30px;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul,li{
+    padding: 10px 30px;
+}
+
+.menu_bar ul,li,a{
+    color: white;
+    text-decoration: none;
+    text-size-adjust: 20px;
+
+    transition: all 0.3s;
+}
+.menu_bar ul,li,a:hover{
+    color: blue;
+}
+.dropdown_menu{
+    display: none;
+}
+
+.menu_bar ul,li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: black;
+}
+.menu_bar ul,li:hover.dropdown_menu ul{
+
+    display: block;
+    margin: 10px;
+}
+.menu_bar ul,li:hover.dropdown_menu ul,li{
+
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+table,th,td{
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 20px;
+    table-layout: fixed;
+
+    }
+    
+    th,td{
+        padding: 8px;
+    }
+
+
+
+
+
+
+
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width.initialscale=1.0">
+<title>TOP 5 HIGHEST MOUNTAINS IN THE WORLD</title>
+</head>
+<body>
+    <br>
+    <caption>data source:wikipedia</caption>
+    <br>
+    <div class="menu_bar">
+<h1 class="logo">NATURE CALL</h1>
+
+<ul>
+    <li><a href="#">Home</a></li></ul>
+    <li>
+        <a href="#">Table Contents<i class="fas fa-caret-down"></i>  </a>
+        <div class="dropdown_menu">
+<ul>
+    <li><a href="a">NATURE CALL</a></li>
+    <li><a href="a"> 5 HIGHEST MOUNTAINS</a></li>
+
+
+</ul>
+
+        </div>
+    </li>
+    <li><a href="#">Top 5 Highest Mountains</a></li>
+
+</ul>
+
+
+
+
+
+    </div>
+
+    <table> <tr>
+
+        <th>Rank Ascent</th>
+        <th>Name</th>
+        <th>Height metres</th>
+        <th>Location</th>
+        <th>First Ascent</th>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td><image src="mteverst.jpg" width="120"></image> Mount Everest</td>
+         <td>8845</td>
+            <td>Nepal China</td>
+            <td>1953</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><image src="mtk2asia.jpg"  width="120>"></image>K2</td>
+                <td>8611</td>
+                <td>Pakistan India</td>
+                <td>1954</td>
+                </tr>
+                
+                <tr>
+                    <td>3</td>
+                    <td><img src="mtkangchenjuna - Copy.jpg"  width="120"></image>Kangchenjunga</td>
+                    <td>8586</td>
+                    <td>Nepal India</td>
+                    <td>1955</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>4</td>
+                       <td><image src="lhotsemt.jpg" width="120"></image>Lhotse</td>
+                        <td>8516</td>
+                        <td>Nepal China</td>
+                        <td>1956</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td><imge src="makalumt.jpg" width="120"></image>Makalu</td>
+                            <td>8485</td>
+                            <td>Nepal China</td>
+                            <td>1955</td>
+                            </tr>
+
+
+
+
+        
+
+
+
+
+
+                        
+    </table>
+       
+    
+    
+</body>
+
+</html>
